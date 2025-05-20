@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gys Shop - Textiles al por Mayor</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .banner {
+      background: url('https://images.unsplash.com/photo-1618354691540-fc6b4b2202c8') no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+    .banner h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      background-color: #e91e63;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gys Shop</h1>
+    <p>Textiles al por mayor para confección y moda</p>
+    <nav>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <h1>Insumos textiles de calidad</h1>
+    <p>Confecciona moda con nuestras telas premium</p>
+    <a class="btn" href="#productos">Ver catálogo</a>
+  </div>
+
+  <section id="nosotros">
+    <h2>¿Quiénes Somos?</h2>
+    <p><strong>Gys Shop</strong> es una empresa colombiana dedicada a la distribución de textiles al por mayor. Ofrecemos telas de alta calidad para emprendedores, diseñadores y grandes fabricantes. Nuestra misión es impulsar la industria de la moda brindando materia prima confiable, variada y accesible.</p>
+  </section>
+
+  <section id="productos">
+    <h2>Productos Destacados</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1a1" alt="Tela algodón">
+        <h3>Algodón</h3>
+        <p>Transpirable y suave, ideal para prendas diarias y moda casual.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1562158070-57c1b3cdb8dc" alt="Tela denim">
+        <h3>Denim</h3>
+        <p>Resistente y versátil, perfecto para jeans y chaquetas.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1604152135912-04a022e2369f" alt="Tela poliéster">
+        <h3>Poliéster</h3>
+        <p>Fácil de trabajar, ideal para ropa deportiva y uniforme.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1626191183848-0f765f22db52" alt="Telas estampadas">
+        <h3>Telas Estampadas</h3>
+        <p>Variedad de diseños y colores para prendas únicas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>Solicita una cotización o recibe asesoría personalizada.</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:gysshop6@gmail.com">gysshop6@gmail.com</a></li>
+      <li><strong>WhatsApp:</strong> +57 300 123 4567</li>
+      <li><strong>Instagram:</strong> @gysshop_textiles</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gys Shop. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
